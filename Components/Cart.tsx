@@ -2,7 +2,7 @@
 import {useEffect} from 'react'
 import { useAppSelector, useAppDispatch } from '@/hooks/storeHook'
 import { toggleCart, removeItemFromCart } from '@/redux/features/cartSlice';
-import {Button} from '@/components'
+// import {Button} from '@/components'
 import {BsCartX} from "react-icons/bs"
 import { Fragment, useState } from 'react'
 import axios from 'axios'
@@ -11,6 +11,7 @@ import { getStripe } from '@/libs/loadStripe';
 import {toast} from 'react-hot-toast'
 import { useSession } from 'next-auth/react';
 import Link from 'next/link'
+import Button from './Button';
 
 
 const Cart:any = () => {
