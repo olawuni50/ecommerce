@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+
+  .max-container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .padding {
+    @apply sm:px-16 px-8 sm:py-24 py-12;
+  }
+
+  .padding-x {
+    @apply sm:px-16 px-8;
+  }
+
+  .padding-y {
+    @apply sm:py-24 py-12;
+  }
+
+  .padding-l {
+    @apply sm:pl-16 pl-8;
+  }
+
+  .padding-r {
+    @apply sm:pr-16 pr-8;
+  }
+
+  .padding-t {
+    @apply sm:pt-24 pt-12;
+  }
+
+  .padding-b {
+    @apply sm:pb-24 pb-12;
+  }
+
+  
+  /* START: General styles */
+  .max-width {
+    @apply max-w-[1440px] mx-auto;
+  }
+  
+  .padding-x {
+    @apply sm:px-16 px-6;
+  }
+  
+  .padding-y {
+    @apply py-4;
+  }
+
+  .custom-btn {
+    @apply flex flex-row relative justify-center items-center p-2 outline-none rounded bg-coral-red 
+    text-white shadow-md;
+  }
+  
+  /* HeroSection */
+
+  .hero { 
+    @apply  mx-auto max-w-2xl px-4 py-20 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8;
+    
+  }
+
+  .heading {
+    @apply text-lg font-bold mb-5 mt-10 bg-teal-300 p-2 shadow-lg rounded capitalize
+  }
+
+
+  .hero__title {
+    @apply text-3xl md:text-4xl font-bold pb-4 w-5/6 tracking-wide leading-normal md:tracking-wide md:leading-normal; 
+  }
+
+  /* Home */
+  .home__wrapper {
+    @apply mx-auto max-w-4xl px-4 py-6 sm:px-6 sm:py-5 lg:max-w-7xl lg:px-8;
+  }
+
+  .home__card {
+    @apply grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8
+  }
+  
+  /* category */
+  .category__home{
+    @apply flex flex-row space-y-4 pb-6 flex-wrap items-center p-3 w-1/2  md:w-3/5
+     hover:bg-gray-400 hover:-translate-y-1 hover:scale-110 duration-300 
+  }
+
+  /* Shop details*/
+
+  .detail__button {
+    @apply px-2 text-2xl font-bold rounded bg-gray-100 shadow-md 
+  }
+  
+
+  
+  
