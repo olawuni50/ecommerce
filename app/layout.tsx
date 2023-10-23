@@ -1,11 +1,15 @@
 import { Suspense } from 'react';
 import './globals.css'
 import type { Metadata } from 'next'
-import {Header, Footer, Cart, Toast, Loader} from '@/components'
+// import {Header, Footer, Cart, Toast, Loader} from '@/components'
 import { Providers } from '@/redux/Provider'
 import AuthProvider from '@/Components/AuthProvider'
 import { ThemeProvider } from './theme-provider';
-import { ThemeSwitcher } from '@/Components/ThemeSwitcher';
+// import { ThemeSwitcher } from '@/Components/ThemeSwitcher';
+import Toast from '@/components/Toast';
+import Cart from '@/Components/Cart';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 
 
 

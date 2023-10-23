@@ -1,10 +1,11 @@
 "use client"
 import React, {useState, useEffect} from 'react'
 import {getShopDetails} from '@/libs/api'
-import {Button} from '@/components'
+// import {Button} from '@/components'
 import { Shop } from '@/models/shop'
 import { useAppDispatch } from '@/hooks/storeHook'
 import {addItemToCart } from '@/redux/features/cartSlice'
+import Button from '../Button'
 
 const ShopDetailsClient = (props: {slug:string; children: React.ReactNode}) => {
   const {slug, children} = props

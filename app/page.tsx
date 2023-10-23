@@ -1,10 +1,14 @@
 import Image from 'next/image'
 
-import {HeroSection, ShopCard, CategoryCard, Button} from '@/components'
+// import {HeroSection, ShopCard, CategoryCard, Button} from '@/components'
 
 import Link from 'next/link'
 import { getCategories, getShop, getTrendingShop } from '@/libs/api'
 import {Shop} from '@/models/shop'
+import HeroSection from '@/components/HeroSection';
+import CategoryCard from '@/components/CategoryCard';
+import ShopCard from '@/components/ShopCard';
+import Button from '@/Components/Button';
 
 
 

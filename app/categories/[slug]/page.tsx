@@ -1,6 +1,7 @@
 
+import ShopCard from '@/components/ShopCard';
 import {getCategoryProducts, getCategory} from '@/libs/api'
-import {ShopCard} from '@/components';
+// import {ShopCard} from '@/components';
 import Link from 'next/link'
 
 
