@@ -57,6 +57,11 @@
   .padding-x {
     @apply sm:px-16 px-6;
   }
+
+  .hero {
+    @apply flex xl:flex-row flex-col gap-5 relative z-0 max-w-[1440px] mx-auto;
+}
+
   
   .padding-y {
     @apply py-4;

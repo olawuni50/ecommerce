@@ -24,7 +24,7 @@ export default async function Home() {
   
 
   return (
-    <main>
+    <main className="overflow-hidden">
 
         <section className="pt-24">
         <HeroSection showLink />

@@ -13,15 +13,14 @@ interface HeroCardProps{
 const HeroSection = async ({showLink}:HeroCardProps) => {
 
   return (
-    <section className="max-container min-h-screen flex justify-between items-center gap-5 
-    max-sm:flex-col max-sm:justify-evenly max-sm:w-full">
+    <div className="hero">
     
     
       <div>
         <p className="capitalize text-coral-red text-md font-montserrat">our summer collection</p>
         <h1 className="capitalize lg:text-8xl md:text-4xl text-3xl w-full font-palanquin font-bold mt-5
         ">The new arrival <br/>
-        <span className="text-coral-red">nike </span> shoes</h1>
+        <span className="text-coral-red">nikee </span> shoes</h1>
 
         <div className="mt-10">
 
@@ -43,7 +42,7 @@ const HeroSection = async ({showLink}:HeroCardProps) => {
       
 
 
-    </section>
+    </div>
   )
 }
 
