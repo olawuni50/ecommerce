@@ -2,8 +2,8 @@ import React from 'react'
 // import {ShopProps} from '../types'
 import Image from 'next/image'
 import Link from 'next/link'
-import {Button} from '@/components'
 import {NextPage} from 'next'
+import Button from './Button'
 
 
 // interface ShopCardProps {

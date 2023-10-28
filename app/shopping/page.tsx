@@ -1,4 +1,5 @@
-import {HeroSection, ShopCard} from '@/components'
+// import {HeroSection, ShopCard} from '@/components'
+import ShopCard from '@/Components/ShopCard'
 import { getShop } from '@/libs/api'
 
 

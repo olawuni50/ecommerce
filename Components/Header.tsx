@@ -1,6 +1,5 @@
  "use client"
 import React, {useState} from 'react'
-import {Button, SignUp} from '@/components';
 import Link from 'next/link'
 import {AiOutlineShoppingCart} from 'react-icons/ai'
 import { useAppDispatch } from '@/hooks/storeHook';
@@ -10,6 +9,8 @@ import {signIn, useSession, signOut} from 'next-auth/react'
 import { useRouter } from 'next/navigation'
 import {BiSearch} from 'react-icons/bi'
 import { ThemeSwitcher } from './ThemeSwitcher';
+import SignUp from './SignUp';
+import Button from './Button';
 
 
 

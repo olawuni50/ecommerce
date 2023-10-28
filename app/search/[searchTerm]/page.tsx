@@ -1,4 +1,6 @@
-import { ShopCard, HeroSection } from "@/components";
+// import { ShopCard, HeroSection } from "@/components";
+import HeroSection from "@/Components/HeroSection";
+import ShopCard from "@/Components/ShopCard";
 import { getShop } from "@/libs/api";
 
 
