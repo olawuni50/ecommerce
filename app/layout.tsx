@@ -6,10 +6,10 @@ import { Providers } from '@/redux/Provider'
 import AuthProvider from '@/Components/AuthProvider'
 import { ThemeProvider } from './theme-provider';
 // import { ThemeSwitcher } from '@/Components/ThemeSwitcher';
-import Toast from '@/components/Toast';
+import Toast from '@/Components/Toast';
 import Cart from '@/Components/Cart';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
+import Header from '@/Components/Header';
+import Footer from '@/Components/Footer';
 
 
 

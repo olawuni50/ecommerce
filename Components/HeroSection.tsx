@@ -1,8 +1,9 @@
 import React from 'react'
-import {Button} from '@/components'
+// import {Button} from '@/Components'
 import Image from 'next/image'
 import {HeroProps} from '../types';
 import Link from 'next/link'
+import Button from './Button';
 
 
 interface HeroCardProps{

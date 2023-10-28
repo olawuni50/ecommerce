@@ -5,10 +5,10 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { getCategories, getShop, getTrendingShop } from '@/libs/api'
 import {Shop} from '@/models/shop'
-import HeroSection from '@/components/HeroSection';
 import CategoryCard from '@/components/CategoryCard';
-import ShopCard from '@/components/ShopCard';
 import Button from '@/Components/Button';
+import HeroSection from '@/Components/HeroSection';
+import ShopCard from '@/Components/ShopCard';
 
 
 
